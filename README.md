@@ -1,38 +1,93 @@
-# Amirreza Hesari — Personal Portfolio
+# Amirreza Hesari | Personal Portfolio
 
-A bilingual (English / Persian) personal portfolio built with plain HTML, CSS, and JavaScript.
+A modern, responsive, and bilingual personal portfolio built with **HTML, CSS, and JavaScript**.
 
-## Features
-- Dark, responsive layout
-- English and Persian language switcher
-- RTL support for Persian
-- Mobile navigation
-- About, skills, projects, and contact sections
-- Featured projects: PetStars, Hap Shop, and AsanFruits
-- No frontend framework or build step required
+This portfolio showcases my experience, skills, and selected projects in web development and WordPress.
 
-## Run locally
-Open `index.html` in your browser.
+## 🌐 Live Preview
 
-## Project structure
+[**View My Portfolio**](https://amirreza-hesari1387.github.io/personal-portfolio/)
+
+## ✨ Features
+
+- Modern dark-themed design
+- Fully responsive layout
+- English and Persian language support
+- RTL and LTR direction support
+- Interactive language switcher
+- Mobile-friendly navigation
+- Smooth animations and transitions
+- About Me section
+- Skills and technologies
+- Selected projects
+- Contact section
+
+## 🛠️ Built With
+
+- **HTML5** — Page structure
+- **CSS3** — Styling, layout, and responsive design
+- **JavaScript** — Interactions and language switching
+
+No frameworks or build tools required.
+
+## 💼 Featured Projects
+
+Here are some of my selected web development projects:
+
+| Project    | Description                     | Website                                 |
+| ---------- | ------------------------------- | --------------------------------------- |
+| PetStars   | Pet products e-commerce website | [petstars.ir](https://petstars.ir/)     |
+| Hap Shop   | E-commerce website              | [hapshop.ir](https://hapshop.ir/)       |
+| AsanFruits | Online fruit store              | [asanfruits.ir](https://asanfruits.ir/) |
+
+## 📁 Project Structure
+
 ```text
-amirreza-portfolio/
+personal-portfolio/
+│
 ├── index.html
+│
 ├── assets/
-│   ├── css/style.css
-│   └── js/main.js
+│   ├── css/
+│   │   └── style.css
+│   │
+│   └── js/
+│       └── main.js
+│
 └── README.md
 ```
 
-## Customize before publishing
-- Review the skill levels and descriptions.
-- Add a professional email or other contact method if desired.
-- Replace or add project screenshots as your portfolio grows.
-- Confirm every project description and external link.
+## 🚀 Run Locally
 
-## Deployment
-The project can be deployed as a static site on GitHub Pages or Vercel. No build command is needed; use the project root as the deployment root.
+You can run this project locally without installing any dependencies.
 
-🔗 Live Website: [Click Here to View Portfolio](http://amirreza-hesari1387.github.io/personal-portfolio/)
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/amirreza-hesari1387/personal-portfolio.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd personal-portfolio
+   ```
+
+3. Open `index.html` in your browser.
+
+## 🌍 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+Since it is a static website, no build command or additional configuration is required.
+
+## 📬 Contact & Social
+
+- **GitHub:** [@amirreza-hesari1387](https://github.com/amirreza-hesari1387)
+- **Portfolio:** [Visit Website](https://amirreza-hesari1387.github.io/personal-portfolio/)
+
 ---
-Built by [Amirreza Hesari](https://github.com/amirreza-hesari1387).
+
+\<p align="center">   Designed and developed by \<strong>Amirreza Hesari\</strong> \</p>
+
+\<p align="center">   Made with ❤️ using HTML, CSS & JavaScript \</p>
