@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="Amirreza Hesari — web designer and developer portfolio.">
+  <title>Amirreza Hesari — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <div class="page-glow page-glow-one" aria-hidden="true"></div>
+  <div class="page-glow page-glow-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Amirreza home"><span class="brand-mark">A<span>.</span></span><span>AMIRREZA<span class="brand-muted">/DEV</span></span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#skills" data-i18n="navSkills">Skills</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+      <button class="language-toggle" type="button" aria-label="Switch language">فا</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span><span data-i18n="availability">OPEN TO LEARNING & OPPORTUNITIES</span></div>
+        <p class="hero-kicker" data-i18n="hello">HELLO, I'M</p>
+        <h1>Amirreza<br><span>Hesari<span class="accent">.</span></span></h1>
+        <h2 data-i18n="role">Web Designer & Developer</h2>
+        <p class="hero-description" data-i18n="intro">I build clean, responsive websites and enjoy turning ideas into useful digital experiences. Currently learning, experimenting, and growing one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="seeWork">Explore my work</span><span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#contact" data-i18n="getInTouch">Get in touch</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/amirreza-hesari1387" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <span class="social-separator">/</span>
+          <span data-i18n="based">Based in Iran</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract developer illustration">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="visual-card">
+          <div class="visual-card-top"><span></span><span></span><span></span><small>about-me.html</small></div>
+          <div class="code-lines" aria-hidden="true">
+            <p><i>01</i> <b class="code-purple">const</b> <strong>developer</strong> = {</p>
+            <p><i>02</i> &nbsp; name: <em>"Amirreza"</em>,</p>
+            <p><i>03</i> &nbsp; focus: <em>"Web"</em>,</p>
+            <p><i>04</i> &nbsp; curious: <b class="code-green">true</b>,</p>
+            <p><i>05</i> &nbsp; learning: <em>"Every day"</em></p>
+            <p><i>06</i> };</p>
+            <p class="code-cursor"><i>07</i> <span></span></p>
+          </div>
+          <div class="visual-card-bottom"><span class="mini-pulse"></span><span data-i18n="currentlyBuilding">Currently building my next idea</span></div>
+        </div>
+        <div class="floating-tag tag-html">HTML5</div>
+        <div class="floating-tag tag-css">CSS3</div>
+        <div class="floating-tag tag-js">JS</div>
+        <div class="visual-caption"><span>01 / 04</span><span data-i18n="heroCaption">A little code. A lot of curiosity.</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span><span data-i18n="scroll">SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <section class="content-section section-shell" id="about">
+      <div class="section-heading"><span class="section-index">01</span><span class="section-label" data-i18n="aboutLabel">A LITTLE ABOUT ME</span></div>
+      <div class="about-grid">
+        <h2 data-i18n="aboutTitle">Curious mind.<br><span class="muted-heading">Practical builder.</span></h2>
+        <div class="about-copy">
+          <p data-i18n="aboutText">I'm Amirreza, a computer student interested in web development and digital products. I have hands-on experience working with WordPress and I'm strengthening my frontend foundations with HTML, CSS, and JavaScript.</p>
+          <p data-i18n="aboutText2">I like understanding how things work, improving details, and building projects that help me learn by doing.</p>
+          <a class="text-link" href="https://github.com/amirreza-hesari1387" target="_blank" rel="noreferrer"><span data-i18n="githubProfile">Visit my GitHub profile</span> ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="skills">
+      <div class="section-heading"><span class="section-index">02</span><span class="section-label" data-i18n="skillsLabel">TOOLS & TECHNOLOGIES</span></div>
+      <div class="skills-intro"><h2 data-i18n="skillsTitle">What I work with<span class="accent">.</span></h2><p data-i18n="skillsNote">A growing toolkit — learning never stops.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-number">01</span><div class="skill-icon">W</div><h3>WordPress</h3><p data-i18n="wordpressDesc">Website building & content management</p><span class="skill-level"><i style="--level:78%"></i></span><small data-i18n="handsOn">Hands-on experience</small></article>
+        <article class="skill-card"><span class="skill-number">02</span><div class="skill-icon code-icon">&lt;/&gt;</div><h3>HTML5</h3><p data-i18n="htmlDesc">Semantic structure & accessible markup</p><span class="skill-level"><i style="--level:55%"></i></span><small data-i18n="learning">Learning & practicing</small></article>
+        <article class="skill-card"><span class="skill-number">03</span><div class="skill-icon css-icon">#</div><h3>CSS3</h3><p data-i18n="cssDesc">Responsive layouts & visual styling</p><span class="skill-level"><i style="--level:48%"></i></span><small data-i18n="learning">Learning & practicing</small></article>
+        <article class="skill-card"><span class="skill-number">04</span><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p data-i18n="jsDesc">Building interactive web experiences</p><span class="skill-level"><i style="--level:20%"></i></span><small data-i18n="beginner">Beginner</small></article>
+        <article class="skill-card"><span class="skill-number">05</span><div class="skill-icon git-icon">⌘</div><h3>Git & GitHub</h3><p data-i18n="gitDesc">Version control & project collaboration</p><span class="skill-level"><i style="--level:42%"></i></span><small data-i18n="learning">Learning & practicing</small></article>
+      </div>
+      <p class="skills-footnote" data-i18n="skillDisclaimer">Skill indicators are personal estimates, not formal certifications.</p>
+    </section>
+
+    <section class="content-section section-shell" id="projects">
+      <div class="section-heading"><span class="section-index">03</span><span class="section-label" data-i18n="projectsLabel">SELECTED WORK</span></div>
+      <div class="projects-heading"><h2 data-i18n="projectsTitle">Things I've been<br><span class="muted-heading">working on.</span></h2><span class="project-count">03 <span data-i18n="projectsCount">PROJECTS</span></span></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview preview-pet"><div class="pet-preview"><span>pet<span>stars</span></span><small data-i18n="petPreview">Everything for your pet</small><div class="pet-circles"><i>✳</i><i>♡</i><i>✦</i></div></div><span class="preview-label">01 / WORDPRESS</span></div>
+          <div class="project-info"><div><span class="project-type" data-i18n="wordpressProject">WORDPRESS PROJECT</span><h3>PetStars</h3></div><a href="https://petstars.ir/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Visit PetStars website">↗</a></div>
+          <p data-i18n="petDesc">A pet products e-commerce website built with WordPress and WooCommerce.</p><div class="tech-tags"><span>WordPress</span><span>WooCommerce</span><span>Elementor</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-hap"><div class="brand-preview hap-preview"><strong>HAP<span>SHOP</span></strong><small data-i18n="hapPreview">A happy place for pets</small><div class="brand-preview-mark">♡</div></div><span class="preview-label">02 / WORDPRESS</span></div>
+          <div class="project-info"><div><span class="project-type" data-i18n="wordpressProject">WORDPRESS PROJECT</span><h3>Hap Shop</h3></div><a href="https://hapshop.ir/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Visit Hap Shop website">↗</a></div>
+          <p data-i18n="hapDesc">An online pet store built with WordPress and WooCommerce.</p><div class="tech-tags"><span>WordPress</span><span>WooCommerce</span><span>Elementor</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-fruit"><div class="brand-preview fruit-preview"><strong>Asan<span>Fruits</span></strong><small data-i18n="fruitPreview">Fruit products, made easy</small><div class="fruit-preview-mark">✳</div></div><span class="preview-label">03 / WORDPRESS</span></div>
+          <div class="project-info"><div><span class="project-type" data-i18n="wordpressProject">WORDPRESS PROJECT</span><h3>AsanFruits</h3></div><a href="https://asanfruits.ir/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Visit AsanFruits website">↗</a></div>
+          <p data-i18n="fruitDesc">An online store for fruit products, built with WordPress and WooCommerce.</p><div class="tech-tags"><span>WordPress</span><span>WooCommerce</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="section-heading"><span class="section-index">04</span><span class="section-label" data-i18n="contactLabel">LET'S CONNECT</span></div>
+      <div class="contact-panel"><div><p class="contact-kicker" data-i18n="contactKicker">HAVE A PROJECT IN MIND?</p><h2 data-i18n="contactTitle">Let's make something<br><span>meaningful.</span></h2><p class="contact-description" data-i18n="contactText">I'm always happy to connect, learn, and talk about ideas.</p></div><a class="button button-primary contact-button" href="https://github.com/amirreza-hesari1387" target="_blank" rel="noreferrer"><span data-i18n="sayHello">Say hello on GitHub</span><span>↗</span></a><div class="contact-decoration" aria-hidden="true">A.</div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="brand footer-brand" href="#home"><span class="brand-mark">A<span>.</span></span><span>AMIRREZA<span class="brand-muted">/DEV</span></span></a><span data-i18n="footerText">Designed & built with curiosity.</span><a href="#home" class="back-top"><span data-i18n="backTop">BACK TO TOP</span> ↑</a></footer>
+</body>
+</html>
