@@ -88,6 +88,10 @@ Since it is a static website, no build command or additional configuration is re
 
 ---
 
-\<p align="center">   Designed and developed by \<strong>Amirreza Hesari\</strong> \</p>
+<p align="center">
+  Designed and developed by <strong>Amirreza Hesari</strong>
+</p>
 
-\<p align="center">   Made with ❤️ using HTML, CSS & JavaScript \</p>
+<p align="center">
+  Made with ❤️ using HTML, CSS & JavaScript
+</p>
